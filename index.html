@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma Todo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="myDIV" class="header">
+        <h2>Ma liste</h2>
+        <input type="text" id="myInput" placeholder="nouvel élément..." />
+        <span onclick="newElement()" class="addBtn">Ajouter</span>
+      </div>
+
+      <ul id="myUL">
+        <li>Aller acheter du pain</li>
+        <li class="checked">Sortir les poubelles</li>
+        <li>Apprendre le JavaScript</li>
+      </ul>
+    </div>
+  </body>
+</html>
