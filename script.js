@@ -56,3 +56,9 @@ function newElement() {
     };
   }
 }
+let elem = document.getElementById("myInput");
+elem.onkeyup = function (e) {
+  if (e.keyCode == 13) {
+    newElement();
+  }
+};
